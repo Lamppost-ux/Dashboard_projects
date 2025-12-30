@@ -12,10 +12,9 @@ Business leaders need answers to critical questions: "Which products drive the m
 
 ## Data Source
 
-**Data Generation:**This dataset was synthetically created to simulate a real-world retail/wholesale business scenario. While the data is generated, the analysis techniques and insights extraction methods are identical to those used with production business data.
-
-- **Dataset:** Synthetic Sales Data (Star Schema)
-- **Structure:** Relational database with 6 tables
+- **Dataset:** Synthetically generated star schema using Claude AI
+- **Purpose:** To simulate realistic retail/wholesale business scenarios for portfolio demonstration
+- **Structure:** Relational database with 6 tables designed to mirror enterprise data warehouses
   - `fact_sales` - Main transaction data (100,000 records)
   - `dim_date` - Date dimension (1,825 records - 5 years)
   - `dim_product` - Product information (20 products)
@@ -23,6 +22,9 @@ Business leaders need answers to critical questions: "Which products drive the m
   - `dim_sales_rep` - Sales representative data (10 reps)
   - `dim_channel` - Sales channel information (5 channels)
 - **Time Period:** 2020 - 2024
+
+**Why Synthetic Data:**
+In portfolio projects, synthetic data allows demonstration of advanced analytical techniques without confidentiality concerns. The star schema structure, relationships, and analysis methods used here are identical to those applied in production business environments. Employers value the ability to generate test data for development and analysis scenarios.
 
 ## Skills Showcased
 
