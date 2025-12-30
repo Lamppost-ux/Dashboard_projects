@@ -12,6 +12,8 @@ Business leaders need answers to critical questions: "Which products drive the m
 
 ## Data Source
 
+**Data Generation:**This dataset was synthetically created to simulate a real-world retail/wholesale business scenario. While the data is generated, the analysis techniques and insights extraction methods are identical to those used with production business data.
+
 - **Dataset:** Synthetic Sales Data (Star Schema)
 - **Structure:** Relational database with 6 tables
   - `fact_sales` - Main transaction data (100,000 records)
@@ -45,7 +47,7 @@ Business leaders need answers to critical questions: "Which products drive the m
 - **Clear Slicer Button:** Reset all selections instantly
 
 ### Visual Design
-- **Dark Mode Theme:** Professional executive aesthetic (#1E1E1E, #2D2D2D)
+- **Dark Mode Theme:** Professional executive aesthetic
 - **Gold Accent Color:** Consistent highlighting (#FFB400)
 - **Conditional Formatting:** Gradient scales on profit margins
 - **Consistent Typography:** White text on dark backgrounds for readability
